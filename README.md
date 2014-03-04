@@ -9,22 +9,22 @@ Consider the scenario where you want the user to order three fruits in order of 
     <select name="first" class="select-pool">
       <option value="">Choose your favourite</option>
       <option value="apples">Apples</option>
-      <option value="apples">Pears</option>
-      <option value="apples">Tangerines</option>
+      <option value="pears">Pears</option>
+      <option value="tangerines">Tangerines</option>
     </select>
 
     <select name="second" class="select-pool">
       <option value="">Choose your second favourite</option>
       <option value="apples">Apples</option>
-      <option value="apples">Pears</option>
-      <option value="apples">Tangerines</option>
+      <option value="pears">Pears</option>
+      <option value="tangerins">Tangerines</option>
     </select>
 
     <select name="third" class="select-pool">
       <option value="">Choose your third favourite</option>
       <option value="apples">Apples</option>
-      <option value="apples">Pears</option>
-      <option value="apples">Tangerines</option>
+      <option value="pears">Pears</option>
+      <option value="tangerines">Tangerines</option>
     </select>
 
 Using **selectPool**, when you select an option from the first select, it will be removed from all the other selects. Likewise when you change your selection, the previously selected option will be reinserted to the other selects.
